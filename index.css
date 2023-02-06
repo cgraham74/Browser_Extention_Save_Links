@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
 }
 input, button{
     
@@ -20,9 +21,26 @@ button{
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    font-weight: 700;
+    font-weight: bold;
+    border: 1px solid #669cda;
    
 }
+#delete-btn{
+    background-color: white;
+    color: #669cda;
+}
+
 button:hover{
    background-color: #5589c5;
+}
+#ul-el{
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+#ul-el > li{
+margin-top: 5px;
+}
+li a{
+  color: #5589c5
 }
